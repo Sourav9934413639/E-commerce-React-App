@@ -1,0 +1,13 @@
+.App{
+  width: 90%;
+    margin: auto;
+   
+}
+#container{
+    
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto;
+    gap: 4rem 2rem;
+    
+}

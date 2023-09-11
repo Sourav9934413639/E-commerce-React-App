@@ -1,0 +1,25 @@
+.loading{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#go{
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+    border-bottom: 3px solid grey;
+    animation: go-round 1s ease-in infinite normal;
+}
+
+h1{
+    font-weight: bold;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+@keyframes go-round{
+    to{
+        transform: rotateZ(360deg);
+    }
+}
